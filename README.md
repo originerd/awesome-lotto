@@ -8,4 +8,5 @@ A collection of awesome lotto lottery number generators ~~Just for fun~~
 
 ## Languages
 - [Elixir](./src/lotto.ex)
+- [Java](./src/Lotto.java)
 - [Ruby](./src/lotto.rb)
