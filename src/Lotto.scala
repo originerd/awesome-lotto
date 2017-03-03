@@ -1,5 +1,5 @@
 import scala.util.Random;
 
 object Lotto extends App {
-  println(Random.shuffle(List.range(1, 46)).slice(0, 6).sorted.mkString(", "))
+  println(Random.shuffle(1 to 46).take(6).sorted.mkString(", "))
 }
