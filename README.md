@@ -13,3 +13,4 @@ A collection of awesome lotto lottery number generators ~~Just for fun~~
 - [Python](./src/lotto.py)
 - [Ruby](./src/lotto.rb)
 - [Scala](./src/Lotto.scala)
+- [Golang](./src/lotto.go)
