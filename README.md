@@ -9,6 +9,7 @@ A collection of awesome lotto lottery number generators ~~Just for fun~~
 ## Languages
 - [Elixir](./src/lotto.ex)
 - [Golang](./src/lotto.go)
+- [Haskell](./src/lotto.hs)
 - [Java](./src/Lotto.java)
 - [JavaScript](./src/lotto.js)
 - [Python](./src/lotto.py)
