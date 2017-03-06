@@ -1,6 +1,7 @@
 import System.Random
 import Data.Array.IO
 import Control.Monad
+import Data.List
  
 shuffle :: [a] -> IO [a]
 shuffle xs = do
@@ -18,4 +19,4 @@ shuffle xs = do
 
 main = do
   shuffled_list <- shuffle [1..45]
-  putStrLn $ show $ take 6 shuffled_list
+  putStrLn (intercalate ", " (map show (take 6 shuffled_list)))
