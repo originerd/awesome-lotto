@@ -19,4 +19,4 @@ shuffle xs = do
 
 main = do
   shuffled_list <- shuffle [1..45]
-  putStrLn (intercalate ", " (map show (take 6 shuffled_list)))
+  putStrLn (intercalate ", " (map show (sort (take 6 shuffled_list))))
