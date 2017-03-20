@@ -16,3 +16,4 @@ A collection of awesome lotto lottery number generators ~~Just for fun~~
 - [Ruby](./src/lotto.rb)
 - [Rust](./src/rust)
 - [Scala](./src/Lotto.scala)
+- [Swift](./src/lotto.swift)
