@@ -5,7 +5,7 @@ use rand::distributions::{IndependentSample, Range};
 
 fn main() {
     let mut lotto_numbers = Vec::new();
-    for n in 0..46 {
+    for n in 0..45 {
         lotto_numbers.push(n+1);
     }
 
