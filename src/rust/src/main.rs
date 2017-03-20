@@ -4,7 +4,7 @@ use rand::{thread_rng, sample};
 
 fn main() {
     let mut rng = thread_rng();
-    let mut lotto_numbers = sample(&mut rng, 1..45, 6);;
+    let mut lotto_numbers = sample(&mut rng, 1..45, 6);
 
     lotto_numbers.sort();
     
