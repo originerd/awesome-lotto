@@ -10,10 +10,10 @@ fn main() {
     
     let result_string = lotto_numbers.iter()
         .fold(String::new(), |a, b| {
-                if a.len() > 0 {
-                    return a + ", " + &(b.to_string());
-                }
-                b.to_string()
+            if a.len() > 0 {
+                return a + ", " + &(b.to_string());
+            }
+            b.to_string()
         });
     println!("{}", result_string);
 }
