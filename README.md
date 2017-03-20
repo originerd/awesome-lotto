@@ -14,4 +14,5 @@ A collection of awesome lotto lottery number generators ~~Just for fun~~
 - [JavaScript](./src/lotto.js)
 - [Python](./src/lotto.py)
 - [Ruby](./src/lotto.rb)
+- [Rust](./src/rust)
 - [Scala](./src/Lotto.scala)
